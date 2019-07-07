@@ -1804,7 +1804,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #dfe7ff;
+  background: #d706ff;
 }
 .feed-link,
 .chat {
@@ -2530,9 +2530,8 @@ embed {
 }
 .header {
   background: url("/images/header-bk.jpg") no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  height: 300px;
+  background-size: cover;
+  height: 200px;
 }
 .brand {
   background: none;
@@ -2564,6 +2563,7 @@ embed {
 .site-subtitle {
   color: #000;
   font-size: 16px;
+  font-weight: 400;
 }
 .footer {
   background: none;
@@ -2592,8 +2592,9 @@ embed {
 }
 .sidebar {
   box-shadow: inset 2px 2px 40px #bdb2b2;
-  background: url("/images/site-background.png");
-  background-size: 100% 100%;
+  background: url("/images/site-background.jpg") no-repeat;
+  background-size: 100% 50%;
+  background-position: bottom;
 }
 .sidebar a {
   color: #649ab6;
@@ -2651,4 +2652,18 @@ a {
 }
 .post-button a:hover {
   color: #7784ba;
+}
+.posts-expand .post-meta {
+  margin: 3px 0 20px 0;
+}
+.posts-expand {
+  padding-top: 0px;
+}
+.post-title {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+.header-inner {
+  padding: 20px 0 20px;
 }
