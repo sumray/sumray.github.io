@@ -99,7 +99,7 @@
 <meta property="og:site_name" content="木头的个人博客">
 <meta property="og:description" content="Me              坐标上海     爱生活，爱编程，爱音乐，爱旅游，爱做饭         动漫厨，东方厨，jo厨(=ﾟωﾟ)ﾉ               Concact              QQ：543576868     WeChat: zq543576868         EMail：543576868@qq.com">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-06T13:48:32.545Z">
+<meta property="og:updated_time" content="2019-07-08T09:39:30.259Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="About">
 <meta name="twitter:description" content="Me              坐标上海     爱生活，爱编程，爱音乐，爱旅游，爱做饭         动漫厨，东方厨，jo厨(=ﾟωﾟ)ﾉ               Concact              QQ：543576868     WeChat: zq543576868         EMail：543576868@qq.com">
@@ -477,10 +477,6 @@
           </div>
           
 
-  
-
-
-
         </div>
         
           
@@ -752,9 +748,33 @@
   
 
   
-
-
   
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: true,
+    notify: true,
+    appId: 'RTnfqBGckC9qqwM6HY4jiEtK-gzGzoHsz',
+    appKey: '8PjSaEr6IrYcxq8NfVcV325c',
+    placeholder: '在这评论',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
+
 
 
   
