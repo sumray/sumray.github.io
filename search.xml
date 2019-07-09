@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[数据结构]]></title>
-    <url>%2Fcategories%2F%E6%AF%8F%E5%91%A8%E8%AE%A1%E5%88%92%2F2019%2F0707-1332-a%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>每周计划</category>
-      </categories>
-  </entry>
-  <entry>
     <title><![CDATA[观察者模式]]></title>
     <url>%2Fcategories%2Fdesign-pattern%2F2019%2F0707-1333-a%2F</url>
     <content type="text"></content>
