@@ -1804,7 +1804,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ecffee;
+  background: #d2ffcc;
 }
 .feed-link,
 .chat {
@@ -2646,6 +2646,7 @@ a {
   line-height: 2;
   margin: 0 4px 8px 4px;
   padding: 0 20px;
+  border: none;
 }
 .post-button a {
   border-bottom: 1px solid #666;
@@ -2660,10 +2661,12 @@ a {
   padding-top: 0px;
 }
 .post-title {
-  font-family: 'Comic Sans MS', sans-serif;
   font-size: 26px;
   font-weight: 400;
 }
 .header-inner {
   padding: 20px 0 20px;
+}
+.post-body a {
+  color: #6495ed;
 }
